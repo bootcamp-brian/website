@@ -8,12 +8,12 @@ async function main({ g, c }, newIssueNumber) {
   github = g;
   context = c;
 
-  let agendaAndNotesIssueNumber = 2607
+  let agendaAndNotesIssueNumber = 1
   await commentOnIssue(agendaAndNotesIssueNumber, newIssueNumber);
 }
 
 const commentOnIssue = async (agendaAndNotesIssueNumber, newIssueNumber) => {
-  const owner = "hackforla";
+  const owner = "bootcamp-brian";
   const repo = "website";
   await github.rest.issues.createComment({
     owner,
