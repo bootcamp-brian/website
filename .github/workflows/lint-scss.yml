@@ -2,7 +2,7 @@ name: Lint SCSS
 
 on:
   pull_request:
-    branches: [mattmalane-gha-list-inactive-members-4158]
+    branches: [gh-pages]
   push:
     branches: [gh-pages]
 
